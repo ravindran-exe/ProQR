@@ -10,9 +10,9 @@
     />
     <meta
       name="keywords"
-      content="qr code, qr codes, qrcodes, create qr code, qr code generator, create qrcodes, make a qr code, online qr code"
+      content="QR, QR code generator, ProQR, PROQR, qr code, qr codes, qrcodes, create qr code, qr code generator, create qrcodes, make a qr code, online qr code"
     />
-    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+    
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -26,9 +26,9 @@
           extend: {
             fontFamily: {
               sans: ["Poppins", "sans-serif"],
-            },
-          },
-        },
+            }
+          }
+        }
       };
     </script>
     <script
@@ -42,13 +42,14 @@
       #spinner {
         display: none;
       }
+      
     </style>
-    <title>Free Online QR Code Generator</title>
+    <title>ProQR Code Generator</title>
   </head>
   <body>
     <header class="p-4 mb-10 bg-violet-700">
       <div class="max-w-5xl m-auto">
-        <div class="text-xl font-bold text-white">QR Code Generator</div>
+        <div class="text-xl font-bold text-white">ProQR Code Generator</div>
       </div>
     </header>
     <img src="img/spinner.svg" alt="" />
@@ -109,6 +110,7 @@
         id="generated"
         class="max-w-5xl m-auto flex flex-col text-center align-center justify-center mt-20"
       >
+      <h1 class="text-3xl font-bold mb-5 md:text-4xl " id="scan"></h1>
         <!-- Spinner -->
         <div id="spinner" role="status">
           <svg
@@ -128,9 +130,17 @@
           </svg>
           <span class="sr-only">Loading...</span>
         </div>
-
-        <div id="qrcode" class="m-auto"></div>
+        
+        <div id="qrcode" class="m-auto "></div>
       </div>
+    
+      
     </main>
+    <footer class="bg-white text-gray-600 text-center py-4  bottom-0 w-full">
+      <div class="container mx-auto">
+        Made with caffeine ☕︎ | 
+        <a href="https://www.linkedin.com/in/ravindran-v-7a3b80248/" class="text-blue-400 hover:text-blue-200">Ravindran</a>
+      </div>
+    </footer>
   </body>
 </html>
