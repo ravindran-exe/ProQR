@@ -2,7 +2,7 @@
 
 ProQR is a web application designed to facilitate efficient and accurate QR code generation and scanning. Whether you need to create QR codes for websites, contacts, Wi-Fi networks, or more, ProQR simplifies the process with its user-friendly interface and robust functionality. Additionally, users can scan QR codes effortlessly using their device's camera, making it convenient for accessing information on the go. With ProQR, streamline your QR code management and enhance your digital experience.
 
-**Deployed Website:** [ProQR Web App](https://proqr.netlify.app/)
+**Deployed Website:** [ProQR Web App](https://ravindran-exe.github.io/ProQR/)
 
 **Screenshots:** 
 ---
